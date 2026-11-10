@@ -1,0 +1,6 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-LODASH-6139239:
+    - 'sanitize-html@1.4.2 > lodash@2.4.2':
+        reason: Transitive lodash 2.4.2 via sanitize-html 1.4.2. Fix exists (upgrade to 1.7.1) but needs dev-team testing. Lab practice, deferred.
+        expires: 2026-12-10T00:00:00.000Z
